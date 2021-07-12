@@ -1,0 +1,12 @@
+#submit:hover{
+    background: #deec80;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -7,141 +7,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kacchir Dukan</title>
     <link rel="icon" href="fav.png" type="image/x-icon" sizes="16x16">
+    <link rel="stylesheet" href="index.css" type="text/css">
 </head>
 
-<body style="background-color: aquamarine;padding-left: 250px;">
-    <header>
-        <h1>Kacchir Dukan</h1>
-    </header>
-    <br>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Home2</a>
-        <a href="#">Home3</a>
-        <a href="#">Home4</a>
+<body style="background-color: aquamarine;padding-left: 100px;">
+<header>
+    <h1>Kacchir Dukan</h1>
+</header>
+<nav>
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">Home2</a>
+    <a href="#" class="nav-link">Home3</a>
+    <a href="#" class="nav-link">Home4</a>
+</nav>
+<main>
 
-    </nav>
-    <br><br><br>
-    <main>
+    <section>
+        <ol>
+            <li>Mutton Kacchi</li>
+            <li>Beef Kacchi</li>
+            <li>Kacchi with Burhani</li>
+            <li>Plane Polaw</li>
+        </ol>
 
-        <section>
-            <ol>
-                <li>Mutton Kacchi</li>
-                <li>Beef Kacchi</li>
-                <li>Kacchi with Burhani</li>
-                <li>Plane Polaw</li>
-            </ol>
-
-
-        </section>
-        <aside>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sDFr2Yzd-8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </aside>
-        <section>
-            <h3>Sample Image</h3>
-            <img src="kacchi.jpg" alt="" width="200px" height="100px">
-            <figcaption>Fig 1:Normal Kacci</figcaption><br><br>
-            <img src="kacchi2.jpg" alt="" width="200px" height="100px">
+    </section>
+    <aside>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sDFr2Yzd-8s" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </aside>
+    <section>
+        <h3>Sample Image</h3>
+        <img src="kacchi.jpg" alt="" width="200px" height="100px">
+        <figure>
+            <figcaption>Fig 1:Normal Kacci</figcaption>
+        </figure>
+        <br><br>
+        <img src="kacchi2.jpg" alt="" width="200px" height="100px">
+        <figure>
             <figcaption>Fig 2:Hydrabadi Kacci</figcaption>
+        </figure>
 
+        <br>
+        <br>
+        <h3>Audio Message</h3>
+        <audio controls src="song.mp3"></audio>
+
+        <br><br>
+
+    </section>
+
+
+    <section>
+
+        <h3>Price List of Our Kacchi</h3>
+        <table>
+
+            <tr>
+                <th>No</th>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mutton Kacchi</td>
+                <td>450</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Beef Kacchi</td>
+                <td>350</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Plane Polaw</td>
+                <td>200</td>
+            </tr>
+        </table>
+
+    </section>
+
+
+    <section>
+        <h3>For Buying Online Kacchi Please Provide All Details</h3>
+        <form action="">
+            <p>Enter Your Name</p> <label>
+            <input type="text" placeholder="Papon">
+        </label>
+            <p>Enter Your Email</p> <label>
+            <input type="email" placeholder="papon@gmail.com">
+        </label>
+            <p>Enter Your Telephone</p> <label>
+            <input type="tel" placeholder="0123456789">
+        </label>
+            <br><input type="submit" id="submit">
             <br>
             <br>
-            <h3>Audio Message</h3>
-            <audio controls src="song.mp3"></audio>
+            <fieldset>
+                <legend>Enter Your Desire Item</legend>
 
-            <br><br>
-            <h3>Video Message</h3>
-            <video controls src="video.mp4" height="300px" width="=700px"></video>
-
-        </section>
-
-
-        <section>
-
-            <h3>Price List of Our Kacchi</h3>
-            <table>
-
-                <tr>
-                    <th>No</th>
-                    <th>Item</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Mutton Kacchi</td>
-                    <td>450</td>
-                </tr>
-
-                <tr>
-                    <td>2</td>
-                    <td>Beef Kacchi</td>
-                    <td>350</td>
-                </tr>
-
-                <tr>
-                    <td>3</td>
-                    <td>Plane Polaw</td>
-                    <td>200</td>
-                </tr>
-            </table>
-
-        </section>
-
-
-        <section>
-            <h3>For Buying Online Kacchi Please Provide All Details</h3>
-            <form action="">
-                <p>Enter Your Name</p> <input type="text"></input>
-                <p>Enter Your Email</p> <input type="email"></input>
-                <p>Enter Your Telephone</p> <input type="tel"></input>
-                <br><input type="submit">
-                <br>
-                <fieldset>
-                    <legend>Enter Your Desire Item</legend>
-
-                    <input type="radio" name="kacchi" id="kacchi1">Mutton Kacchi</input>
-                    <input type="radio" name="kacchi" id="kacchi1">Beef Kacchi</input>
-                    <input type="radio" name="kacchi" id="kacchi1">Plane Polaw</input>
-                </fieldset>
-                <br>
-                <fieldset>
-                    <legend>Click If you Want Extra</legend>
-
-                    <input type="checkbox" name="kacchi" id="kacchi1">Burhani</input>
-                    <input type="checkbox" name="kacchi" id="kacchi1">Coke</input>
-                    <input type="checkbox" name="kacchi" id="kacchi1">Roast</input>
-                </fieldset>
-
-
-            </form>
-        </section>
-
-
-        <section>
-            <h2>Article For Kacchir Dukan</h2>
-
-            <article>
-                If you are asked to name a few signature food items of Dhaka city, Kachchi Biryani will be at the top of the list. For us Bangladeshis, Kachchi Biryani is another name for love. We will never get tired of eating it. The dish's origins are up for debate,
-                but most food historians agree that the precursor to South Asian biryani first emerged in Persia, probably as an unfussed mix of rice and meat, and travelled to the subcontinent through trade, pilgrimage, and conquest.
-            </article>
+                <label>
+                    <input type="radio" name="kacchi">
+                </label>Mutton Kacchi
+                <label>
+                    <input type="radio" name="kacchi">
+                </label>Beef Kacchi
+                <label>
+                    <input type="radio" name="kacchi">
+                </label>Plane Polaw
+            </fieldset>
             <br>
-            <article>
-                In 1610, after the Mughal rulers declared Dhaka as the provincial capital, Mughal subedars and other high officials arrived in Dhaka to manage the administration, and they brought — along with intrigue, grandeur, and tantrums — the biryani. Back then,
-                it is said, the biryani could be prepared only for members of the ruling family, and that too on special occasions. The cooks came from the west, where the Hyderabadi biryani had only just begun to spread its aroma around India.
-            </article>
-            <br>
-            <article>
-                Somewhere along the way, though, the Dhaka biryani developed its own characteristics, which set it apart from its Hyderabadi progenitor – and even from the Sindhi, Kozhikode, Kolkata, Lucknow and Tehari offshoots. The Kachchi Biryani is perhaps the most
-                pleasant and authentic cuisines of Bangladesh. So, what makes Dhakai Kachchi different from other schools of biryani?
-            </article>
-        </section>
+            <fieldset>
+                <legend>Click If you Want Extra</legend>
 
+                <label>
+                    <input type="checkbox" name="kacchi">
+                </label>Burhani
+                <label>
+                    <input type="checkbox" name="kacchi">
+                </label>Coke
+                <label>
+                    <input type="checkbox" name="kacchi">
+                </label>Roast
+            </fieldset>
 
-    </main>
+        </form>
+    </section>
 
+    <section>
+        <h2 style="color: #922a04">Article For Kacchir Dukan</h2>
 
+        <article>
+            If you are asked to name a few signature food items of Dhaka city, Kachchi Biryani will be at the top of the
+            list. For us Bangladeshis, Kachchi Biryani is another name for love. We will never get tired of eating it.
+            The dish's origins are up for debate,
+            but most food historians agree that the precursor to South Asian biryani first emerged in Persia, probably
+            as an unfussed mix of rice and meat, and travelled to the subcontinent through trade, pilgrimage, and
+            conquest.
+        </article>
+        <br>
+        <article>
+            In 1610, after the Mughal rulers declared Dhaka as the provincial capital, Mughal subedars and other high
+            officials arrived in Dhaka to manage the administration, and they brought — along with intrigue, grandeur,
+            and tantrums — the biryani. Back then,
+            it is said, the biryani could be prepared only for members of the ruling family, and that too on special
+            occasions. The cooks came from the west, where the Hyderabadi biryani had only just begun to spread its
+            aroma around India.
+        </article>
+        <br>
+        <article>
+            Somewhere along the way, though, the Dhaka biryani developed its own characteristics, which set it apart
+            from its Hyderabadi progenitor – and even from the Sindhi, Kozhikode, Kolkata, Lucknow and Tehari offshoots.
+            The Kachchi Biryani is perhaps the most
+            pleasant and authentic cuisines of Bangladesh. So, what makes Dhakai Kachchi different from other schools of
+            biryani?
+        </article>
+    </section>
 
-    <footer>&copy; All rights for papon</footer>
+</main>
+
+<footer>&copy; All rights for papon</footer>
 
 </body>
 
